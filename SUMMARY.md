@@ -1,6 +1,6 @@
-# Summary
+# 目录
 
-* [README](README.md)
+* [一句话概述](README.md)
 * 序
    * [简介](1-summary/1-introduction.md)
    * [概述](1-summary/2-summary.md)
