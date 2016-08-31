@@ -1,4 +1,4 @@
-# MeepoPS
+# MeepoPS - 高性能高扩展高可用的PHP Socket服务 使用手册
 
 MeepoPS是Meepo PHP Socket的缩写. 旨在提供高效稳定的由纯PHP开发的多进程SocketService.
 
