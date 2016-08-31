@@ -7,7 +7,7 @@
 前端采用[LayIM1.0](http://www.w3cdream.com/content-sort-21-article-521.html)为基础, 并由zhaodan-it@360.cn修改
 
 ### 展示:
-![WebSocket人机聊天](show1.png?raw=true "WebSocket人机聊天")
+![WebSocket人机聊天](Image/Chat_Robot1.png?raw=true "WebSocket人机聊天")
 
 ### 启动
 使用:
@@ -25,7 +25,7 @@ sudo php webserver_server.php start -d
 
 启动后, MeepoPS会有两个实例, 一个实例作为WebSocket的服务端, 监听19910端口, 等待接受WebSocket链接并进行业务逻辑的处理。另一个实例是WebServer, 监听19911端口, 充当Nginx/Apache的功能。
 
-![WebSocket人机聊天启动](show2.png?raw=true "WebSocket人机聊天启动")
+![WebSocket人机聊天启动](Image/Chat_Robot2.png?raw=true "WebSocket人机聊天启动")
 
 ### 使用
 
