@@ -1,6 +1,6 @@
 # 目录
 
-* [一句话概述](README.md)
+* [MeepoPS-PHP Socket服务](README.md)
 * 序
    * [简介](1-summary/1-introduction.md)
    * [概述](1-summary/2-summary.md)
@@ -23,7 +23,6 @@
    * [属性childProcessCount](3-api/2-common-property-child-process-count.md)
    * [属性instanceName](3-api/3-common-property-instance-name.md)
    * [属性clientList](3-api/4-common-property-client-list.md)
-   * [属性globalEvent](3-api/5-common-property-global-event.md)
    * [回调函数](3-api/6-callback.md)
    * [回调函数callbackStartInstance](3-api/7-callback-start-instance.md)
    * [回调函数callbackConnect](3-api/8-callback-connect.md)
