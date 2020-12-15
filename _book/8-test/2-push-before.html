@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>基于WebSocket的智能客服 · GitBook</title>
+        <title>发布新版本前的测试 · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,8 +57,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="MonitorLogServer.html" />
     
+    <link rel="prev" href="1-event-and-child-proccess.html" />
     
 
     </head>
@@ -988,9 +988,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.9.1" data-path="../8-test/1-event-and-child-proccess.html">
+        <li class="chapter " data-level="1.9.1" data-path="1-event-and-child-proccess.html">
             
-                <a href="../8-test/1-event-and-child-proccess.html">
+                <a href="1-event-and-child-proccess.html">
             
                     
                     事件和子进程
@@ -1001,9 +1001,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.2" data-path="../8-test/2-push-before.html">
+        <li class="chapter active" data-level="1.9.2" data-path="2-push-before.html">
             
-                <a href="../8-test/2-push-before.html">
+                <a href="2-push-before.html">
             
                     
                     发布新版本前的测试
@@ -1162,9 +1162,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.12.1" data-path="ChatRobot.html">
+        <li class="chapter " data-level="1.12.1" data-path="../Example/ChatRobot.html">
             
-                <a href="ChatRobot.html">
+                <a href="../Example/ChatRobot.html">
             
                     
                     基于WebSocket的智能客服
@@ -1175,9 +1175,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.12.2" data-path="MonitorLogServer.html">
+        <li class="chapter " data-level="1.12.2" data-path="../Example/MonitorLogServer.html">
             
-                <a href="MonitorLogServer.html">
+                <a href="../Example/MonitorLogServer.html">
             
                     
                     基于Telnet的监控集群日志
@@ -1188,9 +1188,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.12.3" data-path="MonitorServerStatus.html">
+        <li class="chapter " data-level="1.12.3" data-path="../Example/MonitorServerStatus.html">
             
-                <a href="MonitorServerStatus.html">
+                <a href="../Example/MonitorServerStatus.html">
             
                     
                     部署Agent的服务器数据抓取
@@ -1201,9 +1201,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.12.4" data-path="RealTimeMonitorSsh.html">
+        <li class="chapter " data-level="1.12.4" data-path="../Example/RealTimeMonitorSsh.html">
             
-                <a href="RealTimeMonitorSsh.html">
+                <a href="../Example/RealTimeMonitorSsh.html">
             
                     
                     基于WebSocket的实时监控
@@ -1214,9 +1214,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.12.5" data-path="WebServer.html">
+        <li class="chapter " data-level="1.12.5" data-path="../Example/WebServer.html">
             
-                <a href="WebServer.html">
+                <a href="../Example/WebServer.html">
             
                     
                     基于HTTP的WebServer
@@ -1262,7 +1262,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >基于WebSocket的智能客服</a>
+        <a href=".." >发布新版本前的测试</a>
     </h1>
 </div>
 
@@ -1277,11 +1277,32 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x4EBA;&#x673A;&#x804A;&#x5929;">&#x4EBA;&#x673A;&#x804A;&#x5929;</h1><p>&#x65B0;&#x589E;&#x4E8E;V0.0.5</p><p>&#x540E;&#x7AEF;&#x91C7;&#x7528;MeepoPS&#x7684;WebSocket&#x63A5;&#x53E3;&#x7C7B;&#x3002;</p><p>&#x524D;&#x7AEF;&#x91C7;&#x7528;<a href="http://www.w3cdream.com/content-sort-21-article-521.html" target="_blank">LayIM1.0</a>&#x4E3A;&#x57FA;&#x7840;, &#x5E76;&#x7531;zhaodan-it@360.cn&#x4FEE;&#x6539;</p><h3 id="&#x5C55;&#x793A;">&#x5C55;&#x793A;:</h3><p><img alt="WebSocket&#x4EBA;&#x673A;&#x804A;&#x5929;" src="Image/Chat_Robot1.png?raw=true" title="WebSocket&#x4EBA;&#x673A;&#x804A;&#x5929;"></p><h3 id="&#x542F;&#x52A8;">&#x542F;&#x52A8;</h3><p>&#x4F7F;&#x7528;:</p><pre><code class="lang-bash"><span class="hljs-built_in">cd</span> Example/Chat_Robot
-sudo php chat_rebot.php start</code></pre>
-<p>&#x542F;&#x52A8;.</p><p>&#x5B88;&#x62A4;&#x8FDB;&#x7A0B;&#x6A21;&#x5F0F;&#x542F;&#x52A8;&#x4F7F;&#x7528;:</p><pre><code class="lang-bash"><span class="hljs-built_in">cd</span> Example/Chat_Robot
-sudo php webserver_server.php start <span class="hljs-_">-d</span></code></pre>
-<p>&#x542F;&#x52A8;&#x540E;, MeepoPS&#x4F1A;&#x6709;&#x4E24;&#x4E2A;&#x5B9E;&#x4F8B;, &#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#x4F5C;&#x4E3A;WebSocket&#x7684;&#x670D;&#x52A1;&#x7AEF;, &#x76D1;&#x542C;19910&#x7AEF;&#x53E3;, &#x7B49;&#x5F85;&#x63A5;&#x53D7;WebSocket&#x94FE;&#x63A5;&#x5E76;&#x8FDB;&#x884C;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x7684;&#x5904;&#x7406;&#x3002;&#x53E6;&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#x662F;WebServer, &#x76D1;&#x542C;19911&#x7AEF;&#x53E3;, &#x5145;&#x5F53;Nginx/Apache&#x7684;&#x529F;&#x80FD;&#x3002;</p><p><img alt="WebSocket&#x4EBA;&#x673A;&#x804A;&#x5929;&#x542F;&#x52A8;" src="Image/Chat_Robot2.png?raw=true" title="WebSocket&#x4EBA;&#x673A;&#x804A;&#x5929;&#x542F;&#x52A8;"></p><h3 id="&#x4F7F;&#x7528;">&#x4F7F;&#x7528;</h3><p>&#x6253;&#x5F00;&#x6D4F;&#x89C8;&#x5668;, &#x8BBF;&#x95EE;<a href="http://localhost:19911/index.html&#x5373;&#x53EF;&#x3002;" target="_blank">http://localhost:19911/index.html&#x5373;&#x53EF;&#x3002;</a></p><p>&#x6D4F;&#x89C8;&#x5668;&#x6253;&#x5F00;&#x9875;&#x9762;&#x540E;, JS&#x4F1A;&#x4F7F;&#x7528;WebSocket&#x534F;&#x8BAE;&#x94FE;&#x63A5;&#x5230;&#x670D;&#x52A1;&#x7AEF;, &#x672C;&#x4F8B;&#x662F;&#x94FE;&#x63A5;&#x5230;127.0.0.1:19910&#x3002;</p><p>&#x94FE;&#x63A5;&#x5EFA;&#x7ACB;&#x5B8C;&#x6210;&#x540E;, &#x4F1A;&#x89E6;&#x53D1;JS&#x7684;onopen()&#x4E8B;&#x4EF6;, &#x50CF;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x9001;&#x4E00;&#x4E2A;&#x6D88;&#x606F;&#x3002;</p><p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5728;&#x754C;&#x9762;&#x4E0A;&#x8F93;&#x5165;&#x4EFB;&#x4F55;&#x5B57;&#x7B26;&#x5E76;&#x53D1;&#x9001;&#x3002;</p><p>&#x670D;&#x52A1;&#x7AEF;&#x5728;&#x6536;&#x5230;&#x524D;&#x7AEF;&#x7684;&#x6D88;&#x606F;&#x540E;, &#x4F1A;&#x8FD4;&#x56DE;&quot;&#x6536;&#x5230;&#x6D88;&#x606F;:<strong>*</strong>&quot;&#x7684;&#x5B57;&#x6837;&#x7ED9;&#x524D;&#x7AEF;JS&#x3002;</p><p>JS&#x4F1A;&#x6E32;&#x67D3;&#x5230;&#x754C;&#x9762;&#x4E0A;&#x3002;</p><h3 id="&#x53CB;&#x60C5;&#x63D0;&#x793A;">&#x53CB;&#x60C5;&#x63D0;&#x793A;:</h3><p>&#x524D;&#x7AEF;&#x65AD;&#x7EBF;&#x91CD;&#x94FE;&#x7684;&#x5E93;:  <a href="https://github.com/joewalnes/reconnecting-websocket" target="_blank">ReconnectingWebSocket.js</a></p><p>&#x5F15;&#x5165;&#x540E;, &#x53EA;&#x9700;&#x8981;&#x5C06;JS&#x4E2D;&#x7684;WebSocket(&quot;ws://&quot;)&#x66FF;&#x6362;&#x4F4D;ReconnectingWebSocket(&quot;ws://&quot;)&#x5373;&#x53EF;&#x3002;</p>
+                                <h1 id="&#x53D1;&#x5E03;&#x65B0;&#x7248;&#x672C;&#x524D;&#x7684;&#x6D4B;&#x8BD5;">&#x53D1;&#x5E03;&#x65B0;&#x7248;&#x672C;&#x524D;&#x7684;&#x6D4B;&#x8BD5;</h1><p>Master&#x5206;&#x652F;&#x6BCF;&#x4E00;&#x4E2A;&#x7248;&#x672C;&#x7684;&#x53D1;&#x5E03;, &#x81F3;&#x5C11;&#x90FD;&#x4F1A;&#x7ECF;&#x8FC7;7*24&#x5C0F;&#x65F6;&#x9AD8;&#x538B;&#x6D4B;&#x8BD5;.</p><h4 id="&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;">&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;</h4><ul><li>&#x5BA2;&#x6237;&#x7AEF;&#x4EE3;&#x7801;&#x4F4D;&#x4E8E;Test/test_client_pressure.php
+</li>
+<li>&#x5BA2;&#x6237;&#x7AEF;&#x4EE3;&#x7801;&#x90E8;&#x7F72;&#x5728;5&#x53F0;&#x670D;&#x52A1;&#x5668;&#x4E0A;, &#x5176;&#x4E2D;&#x6D89;&#x53CA;&#x540C;&#x673A;&#x623F;&#x5185;&#x7F51;&#x73AF;&#x5883;, &#x79FB;&#x52A8;, &#x7535;&#x4FE1;, &#x8054;&#x901A;&#x7B49;&#x4E0D;&#x540C;&#x673A;&#x623F;. &#x6BCF;&#x53F0;&#x670D;&#x52A1;&#x5668;&#x542F;&#x52A8;2&#x4E07;&#x4E2A;&#x94FE;&#x63A5;.
+</li>
+<li>&#x670D;&#x52A1;&#x7AEF;32&#x4E2A;&#x8FDB;&#x7A0B;, &#x5171;&#x63A5;&#x6536;&#x5341;&#x4E07;&#x4E2A;&#x94FE;&#x63A5;, &#x6A21;&#x62DF;&#x5341;&#x4E07;&#x4E2A;&#x7528;&#x6237;&#x540C;&#x65F6;&#x5728;&#x7EBF;. 
+</li>
+<li>&#x6BCF;&#x4E2A;&#x94FE;&#x63A5;&#x4E0D;&#x95F4;&#x65AD;&#x7684;&#x53D1;&#x9001;PING, &#x670D;&#x52A1;&#x7AEF;&#x56DE;&#x590D;PONG.
+</li>
+<li>PHP&#x7248;&#x672C;&#x4E3A;5.6.22
+</li></ul>
+<h4 id="&#x670D;&#x52A1;&#x7AEF;&#x8D1F;&#x8F7D;">&#x670D;&#x52A1;&#x7AEF;&#x8D1F;&#x8F7D;</h4><p>&#x4EE5;&#x4E0B;&#x4E3A;<code>top</code>&#x547D;&#x4EE4;&#x7684;&#x622A;&#x53D6;.
+load average: 4.07, 4.02, 4.00
+Tasks: 675 total, 6 running, 669 sleeping, 0 stopped, 0 zombie
+Cpu(s): 14.4%us,  3.3%sy,  0.0%ni, 81.9%id,  0.0%wa,  0.0%hi,  0.4%si,  0.0%st
+Mem:  65801540k total,  3853780k used, 61947760k free,   264520k buffers
+Swap: 68026360k total,        0k used, 68026360k free,   458300k cached</p><h4 id="meepops&#x72B6;&#x6001;">MeepoPS&#x72B6;&#x6001;</h4><ul><li>&#x5185;&#x5B58;: 1027.5M.
+</li>
+<li>&#x5B50;&#x8FDB;&#x7A0B;&#x65E0;&#x91CD;&#x542F;.
+</li>
+<li>&#x5341;&#x4E07;&#x94FE;&#x63A5;&#x65E0;&#x65AD;&#x5F00;, &#x65E0;&#x63A5;&#x6536;&#x5931;&#x8D25;, &#x65E0;&#x53D1;&#x9001;&#x5931;&#x8D25;, &#x65E0;&#x5185;&#x5B58;&#x6CC4;&#x6F0F;, &#x63A5;&#x6536;&#x6570;&#x7B49;&#x4E8E;&#x53D1;&#x9001;&#x6570;
+</li></ul>
+<h3 id="&#x5BA2;&#x6237;&#x7AEF;&#x72B6;&#x6001;">&#x5BA2;&#x6237;&#x7AEF;&#x72B6;&#x6001;</h3><ul><li>&#x6240;&#x6709;&#x94FE;&#x63A5;&#x65E0;&#x65AD;&#x5F00;, &#x65E0;&#x91CD;&#x8FDE;, &#x65E0;&#x53D1;&#x9001;&#x5931;&#x8D25;, &#x65E0;&#x8BFB;&#x53D6;&#x5931;&#x8D25;.
+</li>
+<li>&#x6BCF;&#x6B21;&#x53D1;&#x9001;&#x540E;&#x6536;&#x5230;&#x7684;&#x6D88;&#x606F;&#x6821;&#x9A8C;&#x65E0;&#x8BEF;.
+</li></ul>
+
                                 
                                 </section>
                             
@@ -1308,10 +1329,10 @@ sudo php webserver_server.php start <span class="hljs-_">-d</span></code></pre>
 
             
                 
-                
-                <a href="MonitorLogServer.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 基于Telnet的监控集群日志">
-                    <i class="fa fa-angle-right"></i>
+                <a href="1-event-and-child-proccess.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 事件和子进程">
+                    <i class="fa fa-angle-left"></i>
                 </a>
+                
                 
             
         
@@ -1320,7 +1341,7 @@ sudo php webserver_server.php start <span class="hljs-_">-d</span></code></pre>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"基于WebSocket的智能客服","level":"1.12.1","depth":2,"next":{"title":"基于Telnet的监控集群日志","level":"1.12.2","depth":2,"path":"Example/MonitorLogServer.md","ref":"Example/MonitorLogServer.md","articles":[]},"previous":{"title":"示例","level":"1.12","depth":1,"ref":"","articles":[{"title":"基于WebSocket的智能客服","level":"1.12.1","depth":2,"path":"Example/ChatRobot.md","ref":"Example/ChatRobot.md","articles":[]},{"title":"基于Telnet的监控集群日志","level":"1.12.2","depth":2,"path":"Example/MonitorLogServer.md","ref":"Example/MonitorLogServer.md","articles":[]},{"title":"部署Agent的服务器数据抓取","level":"1.12.3","depth":2,"path":"Example/MonitorServerStatus.md","ref":"Example/MonitorServerStatus.md","articles":[]},{"title":"基于WebSocket的实时监控","level":"1.12.4","depth":2,"path":"Example/RealTimeMonitorSsh.md","ref":"Example/RealTimeMonitorSsh.md","articles":[]},{"title":"基于HTTP的WebServer","level":"1.12.5","depth":2,"path":"Example/WebServer.md","ref":"Example/WebServer.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Example/ChatRobot.md","mtime":"2020-12-15T07:44:56.368Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2020-12-15T08:40:43.451Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"发布新版本前的测试","level":"1.9.2","depth":2,"next":{"title":"建议","level":"1.10","depth":1,"ref":"","articles":[{"title":"建议简介","level":"1.10.1","depth":2,"path":"9-suggest/1-summary.md","ref":"9-suggest/1-summary.md","articles":[]},{"title":"Libevent和Select","level":"1.10.2","depth":2,"path":"9-suggest/2-libevent-select.md","ref":"9-suggest/2-libevent-select.md","articles":[]},{"title":"子进程","level":"1.10.3","depth":2,"path":"9-suggest/3-child-proccess.md","ref":"9-suggest/3-child-proccess.md","articles":[]},{"title":"服务端链接数","level":"1.10.4","depth":2,"path":"9-suggest/4-connect-num.md","ref":"9-suggest/4-connect-num.md","articles":[]},{"title":"客户端数量","level":"1.10.5","depth":2,"path":"9-suggest/5-client-num.md","ref":"9-suggest/5-client-num.md","articles":[]}]},"previous":{"title":"事件和子进程","level":"1.9.1","depth":2,"path":"8-test/1-event-and-child-proccess.md","ref":"8-test/1-event-and-child-proccess.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"8-test/2-push-before.md","mtime":"2020-12-15T07:44:56.366Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2020-12-15T08:40:43.451Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

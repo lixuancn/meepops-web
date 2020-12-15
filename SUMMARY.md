@@ -64,8 +64,10 @@
    * [Trident特有属性](11-trident/3-property.md)
    * [单机部署Trident](11-trident/4-usage-local.md)
    * [集群部署Trident](11-trident/5-usage-distributed.md)
+   * [Trident工具方法](11-trident/6-tool.md)
 * 测试
    * [事件和子进程](8-test/1-event-and-child-proccess.md)
+   * [发布新版本前的测试](8-test/2-push-before.md)
 * 建议
    * [建议简介](9-suggest/1-summary.md)
    * [Libevent和Select](9-suggest/2-libevent-select.md)
