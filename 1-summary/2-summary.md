@@ -2,7 +2,7 @@
 PHP作为最好的语言, 不仅仅能依靠Nginx/Apache来构建Web应用, 同时, 也可以构建高效稳定的即时通讯和Socket应用.
 
 ### 现状
-- 目前版本为V0.0.5.
+- 目前版本为V0.1.0.
 - 原则上要求PHP版本为5.3以上.
 - 正式可用分支为Master分支. Master分支是至少经过7*24小时的高压力测试, 无任何报错后才会发布到Master分支, 其余分支请不要部署在生产环境.
 - 数据交互协议目前支持Telnet协议, HTTP协议. MeepoPS计划支持Telnet, HTTP, HTTPS, WebSocket等应用层协议. 目前, WebSocket协议已经在dev分支中, 正在调试.
